@@ -13,4 +13,4 @@ The game begins by giving you 9 random numbers, between 1 and 9. Before time run
  If you hit a combination that does not sum to 10, or if you run out of time, you lose. 
  
  This project was written in Swift using Xcode. To open the application, open the xCode project file in the
- Tens.xcodeproj.zip usin Xcode.
+ Tens.xcodeproj.zip using Xcode, and run the project on the iPhone SE simulator. 
