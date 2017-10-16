@@ -13,3 +13,5 @@ The game begins by giving you 9 random numbers, between 1 and 9. Before time run
  
  This project was written in Swift using Xcode. To open the application, open the xCode project file in the
  Tens.xcodeproj.zip using Xcode, and run the project on the iPhone SE simulator. 
+ 
+ Alternatively, the raw view controller code can be found in 'ViewController.swift'
