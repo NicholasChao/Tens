@@ -50,9 +50,9 @@ class ViewController: UIViewController {
         }
     }
     
-    //this array will be filled with 8 random numbers
+    //this array will later be filled with 9 random numbers
     var feed = [Int]()
-    //this array will be filled with user input via buttons
+    //this array will later be filled with user input via buttons
     var userInput = [Int]()
 
     //this var is the score
@@ -71,7 +71,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func playButton(_ sender: UIButton) {
-        //pressing play will begin the game by giving you 8 random numbers to start. Also, resets score to zero and starts timer
+        //pressing play will begin the game by giving you 9 random numbers to start. Also, resets score to zero and starts timer
         
         playButton.isEnabled = false
         
@@ -85,6 +85,8 @@ class ViewController: UIViewController {
         youLose.text = ""
         score = 0
         scoreBoard.text = String(score)
+        
+        //create our 9 random numbers and assign them to UI buttons
         var i = 0
         while i < 9 {
             feed.append(Int(arc4random_uniform(9) + 1))
@@ -111,7 +113,7 @@ class ViewController: UIViewController {
         }
     }
     
-    //this function will take input of feed and userInput and take out
+    //this function will take input of feed (the 9 random numbers) and userInput and take out
     //userInput from three. It then replaces userInput with 3 new random numbers
     func threeNew(arrayFeed: [Int], arrayInput: [Int])->[Int]{
         var arrayReturn = arrayFeed
