@@ -1,6 +1,5 @@
 # Tens
-Tens is a Mobile iOS application. It's a simple game involving math and quick-thinking.
-
+Tens is a Mobile iOS application.
 The game is currently only formatted for the iPhone SE.
 
 How to play:
